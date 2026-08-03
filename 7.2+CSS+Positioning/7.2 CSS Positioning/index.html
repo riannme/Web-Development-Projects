@@ -5,22 +5,23 @@
   <title>CSS Positioning Exercise</title>
   <style>
     /* Write your code here */
-    body {
-      margin: 200px;
-    }
-    
-    div {
+    .blue-box {
       background-color: blue;
+      position: relative;
       height: 300px;
       width: 500px;
+      top: 200px;
+      left: 200px;
     }
 
     .red-circle {
       background-color: red;
-      height: 150px;
-      width: 150px;
-      border-radius: 100px;
-      border: solid 10px;
+      position: absolute;
+      height: 200px;
+      width: 200px;
+      top: 150px;
+      left: 250px;
+      border-radius: 50%;
     }
 
   </style>
