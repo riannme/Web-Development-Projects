@@ -8,10 +8,19 @@ body {
 }
 .main {
   flex: 1;
+  
 }
 
+.tile-image{
+  width: 300px;
+}
 h1 {
   font-size: 5rem;
+}
+
+p{
+  font-size: 15px;
+
 }
 
 footer {
