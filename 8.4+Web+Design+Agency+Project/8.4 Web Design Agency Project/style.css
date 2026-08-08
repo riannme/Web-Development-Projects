@@ -13,8 +13,10 @@ body {
 
 h1 {
   font-size: 3.5rem;
+  margin: 10px;
   text-align: center;
 }
+
 
 .left {
   float: left;
@@ -22,6 +24,7 @@ h1 {
 
 
 .tile-image {
+  margin: 100px;
   width: 300px;
 }
 
